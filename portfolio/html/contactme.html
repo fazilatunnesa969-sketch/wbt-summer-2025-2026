@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Contact Me</h1>
+    <!-- Registration -->
+    <form method="post">
+        <fieldset>
+            <legend>ContactMe </legend>
+            <table>
+
+                <tr>
+                    <td><label for="first_name">First Name:</label></td>
+                    <td><input type="text" id="first_name" name="first_name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="last_name">Last Name:</label></td>
+                    <td><input type="text" id="last_name" name="last_name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="male">male
+                        <input type="radio" name="gender" value="female">Female
+                    </td>
+                </tr>
+
+                </tr>
+                </tr>
+            </table>
+        </fieldset>
+
+        <!--New fieldset adding-->
+        <fieldset>
+            <legend>Services</legend>
+            <tr>
+                <td><label for="services">Services:
+                    </label></td>
+                <td>
+                    <input type="radio" name="x" value="web developement">Web developement
+                </td>
+                <td>
+                    <input type="radio" name="x" value="AI">AI/ML
+                </td>
+                <td>
+                    <input type="radio" name="x" value="backend">Backend
+                </td>
+            </tr>
+        </fieldset>
+        <!--New Fieldset here-->
+
+        <Fieldset>
+            <legend>Reason of Contact</legend>
+            <tr>
+                <td>
+                    <input type="radio" name="q" value="job">Job
+                </td>
+                <td>
+                    <input type="radio" name="q" value="thesis">Thesis
+                </td>
+                <td>
+                    <input type="radio" name="q" value="project">Project
+                </td>
+            </tr>
+        </Fieldset>
+        <!--New Fieldset-->
+        <fieldset>
+            <legend>Fix an appoinment</legend>
+            <tr>
+                <td><label for="date">Date:</label></td>
+                <td><input type="date" id="date" name="date"></td>
+            </tr>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+
+</html>›
